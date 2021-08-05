@@ -7,7 +7,7 @@ const Sidebar = ({show}) => {
       <ul>
           <li><Link to="/question">Question</Link></li>
           <li><Link to="/record">Record</Link></li>
-          <li><Link to="/question">#</Link></li>
+          <li><Link to="/next">Next</Link></li>
       </ul>
     </div>
   )
