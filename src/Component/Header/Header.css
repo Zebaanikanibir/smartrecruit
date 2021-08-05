@@ -1,0 +1,17 @@
+.header{
+    margin: 0;
+    padding: 0;
+    
+    height:70px;
+}
+
+.bars{
+    font-size: 30px;
+    float: right;
+    color:blue;
+    padding:20px;
+}
+
+.bar{
+    width:30%;
+}

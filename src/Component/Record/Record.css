@@ -1,0 +1,16 @@
+.record{
+    width: 90%;
+}
+
+.record-name{
+text-align: start;
+border: 1px solid black;
+height: 50px;
+margin-top: 1px;
+}
+
+@media(max-width: 768px){
+    .record-name{
+        width: 100%;
+    }
+}
