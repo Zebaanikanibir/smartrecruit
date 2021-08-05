@@ -1,14 +1,13 @@
 import React from 'react'
 import './Sidebar.css';
+import { Link } from 'react-router-dom';
 const Sidebar = ({show}) => {
   return (
     <div className={show ? 'sidebar active ':'sidebar'}>
       <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
+          <li><Link to="/question">Question</Link></li>
+          <li><Link to="/record">Record</Link></li>
+          <li><Link to="/question">#</Link></li>
       </ul>
     </div>
   )
