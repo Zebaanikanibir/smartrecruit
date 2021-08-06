@@ -19,7 +19,7 @@ margin-bottom: 20px;
     color:rgb(248, 121, 121);
 }
 .box1{
-    border: 1px solid #3A72B7;
+    border: 2px solid #3A72B7;
     border-radius:10px;
     height:100%;
     margin: 20px 20px;
@@ -28,8 +28,8 @@ margin-bottom: 20px;
 
 .box1 p{
     margin-top:10px;
-    color:#3A72B7;
-    font-weight: 500;
+    color:#2a5d9b;
+    font-weight: 600;
     font-size: 17px;
     text-align: start;
     margin-left: 15px;
@@ -49,7 +49,7 @@ margin-left: 25px;
 
 
 
-.line1{
+/* .line1{
     border: 2px solid #3A72B7;
     height:35px;
     width: 34px;
@@ -59,11 +59,34 @@ margin-left: 25px;
     font-size: 17px;
     line-height: 20px;
     text-align: center;
-    margin-top: 5px;
 }
 
+.line1 p{
+    margin-bottom: 50px;
+}
 
+.para{
+    margin-left: 25px;
+    font-size: 17px;
+    line-height: 20px;
+    color:#3A72B7 ;
+} */
+.line1{
+    border: 2px solid #3A72B7;
+    height:32px;
+    width: 34px;
+    border-radius:5px;
+    text-align: center;
 
+}
+.line1 p{
+    color:#3A72B7 ;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 5px;
+
+}
 .para{
     margin-top: 13px;
     margin-left: 25px;
@@ -71,7 +94,6 @@ margin-left: 25px;
     line-height: 20px;
     color:#3A72B7 ;
 }
-
 #toggle{
 color: #3A72B7;
 }
@@ -131,6 +153,7 @@ display:none;
         text-align: center;
         top: 80px;
         display:none;
+    
     }
 
     .lists li{
@@ -142,3 +165,32 @@ display:none;
     display: inline;
 }
 
+.pagination-button{
+    background-color: transparent;
+    border: none;
+    color: blue;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.pagination-button:hover{
+    background-color: #4c76ad;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+.pagination-button-fixed{
+    background-color: transparent;
+    border: none;
+    color: blue;
+    margin-left: 50px;
+}
+
+.menu{
+    text-align: end;
+    margin-right: 35px;
+}

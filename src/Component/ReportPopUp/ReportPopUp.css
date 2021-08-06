@@ -22,7 +22,7 @@
     margin: 20px auto;
     border: 1px solid #3A72B7;
     border-radius: 10px;
-    width: 230px;}
+    width: 100%;}
 
 
     .report-button{
@@ -34,21 +34,21 @@
 
     .report-button-submit{
         background-color: #44CCA4;
-        border-radius: 5px;
+        border-radius: 7px;
         font-size: 15px;
         font-weight: 700;
-        width: 70px;
-        height: 30px;
+        width: 100px;
+        height: 36px;
         color: white;
         border: none;
     }
     .report-button-cancel{
         background-color: #FA8282;
-        border-radius: 5px;
+        border-radius: 7px;
         font-size: 15px;
         font-weight: 700;
-        width: 70px;
-        height: 30px;
+        width: 100px;
+        height: 36px;
         color: white;
         border: none;
     }
@@ -56,5 +56,76 @@
     .report-issue-input{
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin-right: 50px;
+    }
+
+    /* 
+    
+    checkbox
+    */
+
+    
+    .checkbox input[type="checkbox"] {
+        width: auto;
+        opacity: 0.00000001;
+        position: absolute;
+        left: 0;
+        margin-left: -20px;
+    }
+    .checkbox label {
+        position: relative;
+    }
+    .checkbox label:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 5px;
+        margin: 4px;
+        width: 15px;
+        height: 15px;
+        transition: transform 0.28s ease;
+        border-radius: 3px;
+        border: 2px solid #2C5A98;
+    }
+    .checkbox label:after {
+        content: '';
+          display: block;
+          width: 10px;
+          height: 5px;
+          border-bottom: 2px solid #2C5A98;
+          border-left: 2px solid #2C5A98;
+          -webkit-transform: rotate(-45deg) scale(0);
+          transform: rotate(-45deg) scale(0);
+          transition: transform ease 0.25s;
+          will-change: transform;
+          position: absolute;
+          top: 12px;
+          left: 10px;
+      }
+      .checkbox input[type="checkbox"]:checked ~ label::before {
+          color: #2C5A98;
+      }
+      .checkbox input[type="checkbox"]:checked ~ label::after {
+        -webkit-transform: rotate(-45deg) scale(1);
+        transform: rotate(-45deg) scale(1);
+    }
+    
+    .checkbox label {
+        min-height: 34px;
+        display: block;
+        padding-left: 40px;
+        margin-bottom: 0;
+        font-weight: normal;
+        cursor: pointer;
+        vertical-align: sub;
+    }      
+    .checkbox label span {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .checkbox input[type="checkbox"]:focus + label::before {
+        outline: 0;
     }

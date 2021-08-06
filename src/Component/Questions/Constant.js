@@ -1,0 +1,1 @@
+export const QUES_PER_PAGE = 1
