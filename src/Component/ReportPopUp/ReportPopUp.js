@@ -11,7 +11,7 @@ const ReportPopUp = (props) => {
                 <div className="report-popup-inner">
 
                    <div className="report-popup-inner-div">
-                   <p style={{ color: '#3A72B7', textAlign: 'start',width:'100%',marginLeft:'10px' }}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                   <p style={{ color: '#3A72B7', textAlign: 'start',width:'100%',marginLeft:'10px',fontSize:'17px',}}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
                    </div>
                 <div className="report-issue">
 <p style={{marginLeft:'20px',lineHeight:'17px',fontSize:'18px',fontWeight:'400'}} >Issue in:</p>

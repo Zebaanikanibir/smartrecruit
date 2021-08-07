@@ -10,7 +10,7 @@ margin-bottom: 20px;
    
 }
 .box0{background:rgb(246, 252, 252);
-    height:500px
+    height:280px
 }
 .logo2{
     margin-left: 140px;
@@ -173,7 +173,7 @@ display:none;
     height: 30px;
     width: 30px;
     border-radius: 15px;
-    margin-left: 10px;
+    
 }
 .pagination-button:hover{
     background-color: #4c76ad;
@@ -187,9 +187,22 @@ display:none;
     background-color: transparent;
     border: none;
     color: blue;
-    margin-left: 50px;
+    margin-left: 70px;
 }
-
+.pagination-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.pagination-header-backward{
+    background-color: #FA8282;
+    height: 45px;
+    width: 52px;
+    border-bottom-right-radius:50%;
+    border-top-right-radius:50%;
+    
+}
 .menu{
     text-align: end;
     margin-right: 35px;

@@ -6,26 +6,26 @@
 .nextStep-header-div{
   position: relative;
   text-align: center;
-  top: 30px;
+  top: 50px;
   left: 0;
 }
 .nextStep-header-div-first{
   font-weight: 700;
-  font-size: 28px;
+  font-size: 23px;
   color: #2C5A98;
   line-height: 28px;
 }
 
 .nextStep-header-div-sec{
   font-weight: 300;
-  font-size: 28px;
+  font-size: 23px;
   color: #2C5A98;
   line-height: 26px;
   
 }
 
 .graph{
-  margin-top: 80px;
+  margin-top: 100px;
 }
   .donut-chart {
     position: relative;
@@ -112,6 +112,7 @@
 
   .buttonDiv{
       text-align: center;
+      margin-top:30px;
   }
 
   .button1{
@@ -122,6 +123,7 @@
       background-color:#44CCA4;
       border-radius:7px;
       color: white;
+      margin-bottom: 30px;
   }
   .button2{
     border: none;
@@ -130,6 +132,7 @@
     height: 47px;
     background-color:#2C5A98;
     border-radius:7px;
+    margin-bottom: 30px;
     color: white;
 }
 .button3{
@@ -137,6 +140,7 @@
     margin:10px 10px;
     width:84px;
     height: 47px;
+    margin-bottom: 30px;
     background-color:#FA8282;
     border-radius:7px;
     color: white;
@@ -146,14 +150,17 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width:80%;
+    width:60%;
     text-align: center;
     margin:auto;
+    position: relative;
 
 }
 .lineDiv1{
     border: none;
     margin: auto;
+    position: absolute;
+    top: 0;
     width:56px;
     height: 17px;
     background-color:#44CCA4;
@@ -163,7 +170,8 @@
 .lineDiv2{
     border: none;
     margin: auto;
-   
+    position: absolute;
+    top: 0;
     width:37px;
     height: 17px;
     background-color:#2C5A98;
@@ -173,6 +181,8 @@
 .lineDiv3{
     border: none;
     margin: auto;
+    position: absolute;
+    top: 0;
     width:42px;
     height: 17px;
     background-color:#FA8282;
@@ -187,7 +197,7 @@
     display: flex;
     margin:   10px  auto;
     align-items: center;
-    height:70px;
+    height:60px;
     width: 90%;
     background-color: white;
     justify-content: space-around;

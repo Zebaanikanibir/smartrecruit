@@ -12,7 +12,7 @@ const Questions = () => {
   const [question, setQuestion] = useState([])
 
   const [page, setPage] = useState(1);
-
+  const [backPage, setBackPage] = useState(1);
 
   const [totalPage, setTotalPage] = useState(0)
   console.log('total', totalPage)
@@ -28,11 +28,14 @@ const Questions = () => {
   const handleClick = num => {
     setPage(num);
   }
-
+const handleBack = (num) =>{
+  // setBackPage(num-1);
+ console.log('back')
+}
   return (
     <div>
       
-      <Pagination handleClick={handleClick} totalPage={totalPage}></Pagination>
+      <Pagination handleClick={handleClick} totalPage={totalPage} handleBack={handleBack}></Pagination>
 
 
 
@@ -40,7 +43,7 @@ const Questions = () => {
 
       <div className="questions">
 
-        <Question question={question} page={page}></Question>
+        <Question question={question} page={page} ></Question>
       </div>
       <Bottom></Bottom>
     </div>
