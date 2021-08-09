@@ -15,7 +15,7 @@ import Record from './Component/Record/Record';
 function App() {
   return (
     <Router>
-      <Header></Header>
+      {/* <Header></Header> */}
       <Switch>
 
         <Route path="/question">
@@ -26,6 +26,9 @@ function App() {
         </Route>
         <Route path="/record">
           <Record></Record>
+        </Route>
+        <Route exact path="/">
+          <Questions></Questions>
         </Route>
       </Switch>
 
